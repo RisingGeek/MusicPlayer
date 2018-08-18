@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/Montserrat-Regular.ttf');
+}
+body {
+    background: rgb(10,20,30);
+    font-family: 'Montserrat', sans-serif;
+    background-image: url('../images/background.jpg');
+    color: white;
+}
+#app {
+    font-weight: bold;
+}
+#buttons .col-sm-3 {
+    position: relative;
+    margin: 2% 0%;
+    text-align: center;
+}
+#buttons .col-sm-3 button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+#buttons .col-sm-3 img {
+    border-radius: 3px;
+}
+.fa-play-circle, .fa-pause-circle {
+    font-size: 40px;
+}
+#progress {
+    width: 89.5%;
+    background: white;
+    position: absolute;
+    bottom: 0;
+    left: 5.5%;
+    right: 0;
+    visibility: hidden;
+    -webkit-transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+}
+#bar {
+    width: 0%;
+    height: 5px;
+    background: red;
+}
+#buttons .col-sm-3:hover #progress {
+    visibility: visible;
+    bottom: 5%;
+}
+#volume {
+    -webkit-appearance: none;
+    appearance: none;
+    background: white;
+    height: 1.5px;
+    outline: none;
+    cursor: pointer;
+}
+#volume::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+    cursor: pointer;
+}
+#volume::-moz-range-thumb {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+    cursor: pointer;
+}
+.fa-volume-up {
+    font-size: 30px;
+    vertical-align: middle;
+    margin-right: 1%;   
+    color: white;
+}
+#currTime {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    -webkit-transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    visibility: hidden;
+}
+#buttons .col-sm-3:hover #currTime {
+    visibility: visible;
+}
+#duration {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    -webkit-transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    visibility: hidden;
+}
+#buttons .col-sm-3:hover #duration {
+    visibility: visible;
+}

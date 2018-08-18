@@ -1,0 +1,52 @@
+{
+    "songs" : [
+        {
+            "class" : "a",
+            "src" : "assets/songs/Abhi Toh Party Shuru Hui Hai.mp3",
+            "imgSrc" : "assets/images/Party.jpg",
+            "alt" : "Party"
+        },
+        {
+            "class" : "b",
+            "src" : "assets/songs/Dope Shope.mp3",
+            "imgSrc" : "assets/images/Dope Shope.jpg",
+            "alt" : ""
+        },
+        {
+            "class" : "c",
+            "src" : "assets/songs/Bom Diggy Diggy.mp3",
+            "imgSrc" : "assets/images/Bom Diggy Diggy.jpg",
+            "alt" : "Bom Diggy Diggy"
+        },
+        {
+            "class" : "d",
+            "src" : "assets/songs/Dil Chori.mp3",
+            "imgSrc" : "assets/images/Dil Chori.jpg",
+            "alt" : "Dil Chori"
+        },
+        {
+            "class" : "e",
+            "src" : "assets/songs/Humma.mp3",
+            "imgSrc" : "assets/images/Humma.jpg",
+            "alt" : "Humma"
+        },
+        {
+            "class": "f",
+            "src" : "assets/songs/Paani Da Rang.mp3",
+            "imgSrc" : "assets/images/Paani Da Rang.jpg",
+            "alt" : "Pani Da Rang"
+        },
+        {
+            "class" : "g",
+            "src" : "assets/songs/Daru Badnaam.mp3",
+            "imgSrc" : "assets/images/Daru Badnaam.jpg",
+            "alt" : "Daru Badnaam"
+        },
+        {
+            "class" : "h",
+            "src" : "assets/songs/High Rated Gabru.mp3",
+            "imgSrc" : "assets/images/High Rated Gabru.jpg",
+            "alt" : "High Rated Gabru"
+        }
+    ]
+}
