@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(window).on('load',function() {
     $("#buttons").click(function(event) {
         if(event.target!==event.currentTarget) {
             let clickedItem = event.target.id;

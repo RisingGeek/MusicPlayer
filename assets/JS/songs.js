@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(window).on('load',function() {
     var columns = $("#buttons").find(".col-sm-3");
     for(let i = 0; i < columns.length; i++) {
         $("body").append("<audio type='audio/mp3'></audio>");
